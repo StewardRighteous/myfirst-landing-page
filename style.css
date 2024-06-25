@@ -201,3 +201,11 @@
     color: white;
 }
 
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+}

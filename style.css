@@ -120,3 +120,38 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+/* quote section */
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 5rem 0rem;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    gap: 1rem;
+    padding: 16px;
+}
+
+.quote #quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote #author{
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
